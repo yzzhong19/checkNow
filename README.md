@@ -2,11 +2,21 @@
 
 **Stop checking your email.** CheckNow gives you peace of mind by notifying you ONLY when something has **direct personal consequences** (Bills, Tax, Medical, Emergencies) and ignoring the rest.
 
-It uses **Google Gemini AI** to read your emails 24/7 and **Pushover** to alert you with Emergency Priority when it matters.
+---
+
+## 🏎️ Fast Track (Beta Testers)
+Want to try it without the setup headache?
+1.  **Fill this Form**: [Request Beta Access](https://docs.google.com/forms) (I need to add your email to the Google allowlist).
+2.  **Run this Command**:
+    ```bash
+    curl -sSL https://raw.githubusercontent.com/yzzhong19/checknow/main/install_beta.sh | bash
+    ```
+    *This runs the pre-configured version. You just need a Pushover Key and a Gemini Key.*
 
 ---
 
-## Features
+## 🚀 DIY Start (Self-Hosted)
+For power users who want full control...
 *   **AI-Powered Filtering**: Uses Gemini Flash to understand context (e.g., "$100M ARR for company" = Ignore vs "Payment Failed" = **URGENT**).
 *   **Privacy First**: Runs 100% on **YOUR** computer/server. Your emails are processed locally and never sent to a third-party server.
 *   **Emergency Alerts**: Bypasses "Silent Mode" on your phone for critical deadlines (uses Pushover Priority 2).
