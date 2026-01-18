@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+.env
+.env.example
+.git
+.gitignore
+token.json
+storage.json
+app.log
+venv/
+.checkNow/
+node_modules/
+dist/

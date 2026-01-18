@@ -1,0 +1,14 @@
+services:
+  checknow:
+    image: yzzhong/checknow:latest
+    container_name: checknow_app
+    restart: unless-stopped
+    volumes:
+      # Mount config and state files so they persist outside the container
+      - ./.env:/app/.env
+      - ./token.json:/app/token.json
+      - ./storage.json:/app/storage.json
+      # Optional: Persist logs
+      - ./app.log:/app/app.log
+    environment:
+      - PYTHONUNBUFFERED=1

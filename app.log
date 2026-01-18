@@ -1,0 +1,59 @@
+2026-01-17 20:12:12,135 [INFO] Gmail Alerter (Python) Started.
+2026-01-17 20:12:12,325 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-17 20:12:12,327 [INFO] --- Starting Email Check ---
+2026-01-17 20:12:12,783 [INFO] Found 1 new messages.
+2026-01-17 20:12:12,783 [INFO] Classifying: Fwd: Manus Update: $100M ARR, $125M revenue run-ra...
+2026-01-17 20:12:16,293 [INFO] Result: Important=True, Urgent=False, Score=0.7
+2026-01-17 20:12:16,565 [INFO] Notification sent for message 19bcf4d8ad5aa928
+2026-01-17 20:12:16,566 [INFO] --- Check Complete ---
+2026-01-17 20:12:16,566 [INFO] Scheduler running. Press Ctrl+C to exit.
+2026-01-17 20:14:30,273 [INFO] Stopping...
+2026-01-17 20:14:31,658 [INFO] Gmail Alerter (Python) Started.
+2026-01-17 20:14:31,660 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-17 20:14:31,660 [INFO] --- Starting Email Check ---
+2026-01-17 20:14:31,800 [INFO] Found 0 new messages.
+2026-01-17 20:14:31,801 [INFO] --- Check Complete ---
+2026-01-17 20:14:31,801 [INFO] Scheduler running. Press Ctrl+C to exit.
+2026-01-17 20:14:37,352 [INFO] Stopping...
+2026-01-17 20:15:30,195 [INFO] Gmail Alerter (Python) Started.
+2026-01-17 20:15:30,197 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-17 20:15:30,198 [INFO] --- Starting Email Check ---
+2026-01-17 20:15:30,530 [INFO] Found 2 new messages.
+2026-01-17 20:15:30,532 [INFO] Classifying: Fwd: Your free trial ends on January 6, 2026...
+2026-01-17 20:15:33,420 [INFO] Result: Important=True, Urgent=True, Score=0.8
+2026-01-17 20:15:33,579 [INFO] Notification sent for message 19bcf50a26119fc8
+2026-01-17 20:15:33,579 [INFO] Classifying: Fwd: Manus Update: $100M ARR, $125M revenue run-ra...
+2026-01-17 20:15:36,594 [INFO] Result: Important=False, Urgent=False, Score=0.0
+2026-01-17 20:15:36,594 [INFO] --- Check Complete ---
+2026-01-17 20:15:36,595 [INFO] Scheduler running. Press Ctrl+C to exit.
+2026-01-17 20:17:19,035 [INFO] Stopping...
+2026-01-17 20:17:20,939 [INFO] Gmail Alerter (Python) Started.
+2026-01-17 20:17:20,940 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-17 20:17:20,941 [INFO] --- Starting Email Check ---
+2026-01-17 20:17:21,202 [INFO] Found 1 new messages.
+2026-01-17 20:17:21,203 [INFO] Classifying: Fwd: Your free trial ends on January 6, 2026...
+2026-01-17 20:17:24,528 [INFO] Result: Important=True, Urgent=True, Score=0.85
+2026-01-17 20:17:24,688 [INFO] Notification sent for message 19bcf52534627d69
+2026-01-17 20:17:24,688 [INFO] --- Check Complete ---
+2026-01-17 20:17:24,688 [INFO] Scheduler running. Press Ctrl+C to exit.
+2026-01-17 20:18:09,810 [INFO] Stopping...
+2026-01-17 20:18:22,501 [INFO] Gmail Alerter (Python) Started.
+2026-01-17 20:18:22,502 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-17 20:18:22,503 [INFO] --- Starting Email Check ---
+2026-01-17 20:18:22,746 [INFO] Found 1 new messages.
+2026-01-17 20:18:22,747 [INFO] Classifying: Fwd: Your free trial ends on January 6, 2026...
+2026-01-17 20:18:25,937 [INFO] Result: Important=True, Urgent=True, Score=0.85
+2026-01-17 20:18:26,063 [INFO] Notification sent for message 19bcf533f6f4c0e2
+2026-01-17 20:18:26,063 [INFO] --- Check Complete ---
+2026-01-17 20:18:26,063 [INFO] Scheduler running. Press Ctrl+C to exit.
+2026-01-17 20:20:06,322 [INFO] Stopping...
+2026-01-17 20:20:07,696 [INFO] Gmail Alerter (Python) Started.
+2026-01-17 20:20:07,698 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-01-17 20:20:07,699 [INFO] --- Starting Email Check ---
+2026-01-17 20:20:07,930 [INFO] Found 1 new messages.
+2026-01-17 20:20:07,931 [INFO] Classifying: Fwd: Your free trial ends on January 6, 2026...
+2026-01-17 20:20:11,441 [INFO] Result: Important=True, Urgent=True, Score=0.8
+2026-01-17 20:20:11,622 [INFO] Notification sent for message 19bcf54c7bfba0f6
+2026-01-17 20:20:11,622 [INFO] --- Check Complete ---
+2026-01-17 20:20:11,623 [INFO] Scheduler running. Press Ctrl+C to exit.
+2026-01-17 20:36:11,774 [INFO] Stopping...
