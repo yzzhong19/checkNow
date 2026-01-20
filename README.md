@@ -4,14 +4,32 @@
 
 ---
 
-## 🏎️ Fast Track (Beta Testers)
-Want to try it without the setup headache?
-1.  **Fill this Form**: [Request Beta Access](https://docs.google.com/forms) (I need to add your email to the Google allowlist).
-2.  **Run this Command**:
-    ```bash
-    curl -sSL https://raw.githubusercontent.com/yzzhong19/checknow/main/install_beta.sh | bash
-    ```
-    *This runs the pre-configured version. You just need a Pushover Key and a Gemini Key.*
+## 🏎️ Beta Tester Guide (Self-Hosting)
+Run this app privately on your own computer (Mac/Windows/Linux). **Your data never leaves your device.**
+
+### Prerequisites
+1.  **Install Docker Desktop**: [Download Here](https://www.docker.com/products/docker-desktop/) (and keep it running).
+2.  **Get a Gemini API Key** (Free): [Get Key Here](https://aistudio.google.com/app/apikey).
+3.  **Get Pushover** ($5 one-time, optional but recommended for phone alerts):
+    *   Install app on iPhone/Android.
+    *   Get your **User Key** from the app settings.
+
+### One-Command Setup
+Open your Terminal (Mac) or PowerShell (Windows) and paste this:
+
+```bash
+mkdir checknow && cd checknow
+curl -O https://raw.githubusercontent.com/yzzhong19/checknow/main/install_beta.sh
+bash install_beta.sh
+```
+
+**What happens next?**
+1.  It will ask for your keys (Gemini + Pushover).
+2.  It will download the app.
+3.  It will give you a link -> **Login with your Gmail**.
+4.  **Done!** It runs silently in the background checking for urgent emails.
+
+*(Note: If you close the terminal window, it keeps running. To stop it, open Docker Dashboard).*
 
 ---
 
