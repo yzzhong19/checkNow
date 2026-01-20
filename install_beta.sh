@@ -19,7 +19,8 @@ if [ ! -f .env ]; then
     echo "🔑 Configuration Setup:"
     read -p "Enter Gemini API Key: " gemini_key
     read -p "Enter Pushover User Key: " pushover_user
-    read -p "Enter Pushover App Token: " pushover_token
+    # Default CheckNow App Token
+    pushover_token="anuvriiayu3u9ehq6j814gwskjb398"
     
     echo "GEMINI_API_KEY=$gemini_key" > .env
     echo "PUSHOVER_USER_KEY=$pushover_user" >> .env
